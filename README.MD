@@ -1,14 +1,13 @@
-### n1-meli-projetopratico
-### {reprograma} - Projeto API
+# {reprograma} - Projeto API
 
-# Descrição do Projeto
+### Descrição do Projeto
 
 Desenvolver uma API a fim de disponibilizar uma lista de tarefas a ser compartilhada entre os funcionários de uma empresa. Os dados da tarefa que deverão aparecer, são:
 	Descrição da tarefa
 Data de Inclusão 
 Check para verificar se o item já foi concluído.
 
-# Planejamento
+### Planejamento
 
  1º Instalar pacotes:
  npm init -y
