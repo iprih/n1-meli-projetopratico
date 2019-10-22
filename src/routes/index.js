@@ -3,8 +3,8 @@ const router = express.Router()
 
 router.get('/', function(req, res){
     res.status(200).send({
-        title: "teste",
-        version: "bla"
+        title: "Projeto Pratico",
+        version: "Avoa menina"
     })
 })
 module.exports = router
