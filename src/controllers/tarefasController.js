@@ -14,11 +14,7 @@ exports.getById = (req,res) => {
     res.status(200).send(tarefas.find(item => item.id == id))
 }
 
-//criar pessoas que tenham concluido a tarefa
-
-
-exports.getConcluido = (req, res) => {
-    
+exports.getTarefaConcluida = (req, res) => {
     const tarefaConcluida = tarefas.filter(item => item.concluido == "true")
     const tarefaConcluidaa = tarefaConcluida.map(item => item.descricao)
     
@@ -26,10 +22,8 @@ exports.getConcluido = (req, res) => {
 }
 
 exports.getTarefaFuncionario = (req, res) => {
-    
+    const funcionario = req.params.funcionario
     const nome = tarefas.filter(item => item.funcionario == funcionario)
-    console.log(nome)
-    const coisa = nome.map(item => item.descricao)
-    
-    res.status(200).send(coisa)
+         
+    res.status(200).send(nome)
 }

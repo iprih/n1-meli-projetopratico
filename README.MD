@@ -7,6 +7,11 @@ Descrição da tarefa
 Data de Inclusão 
 Check para verificar se o item já foi concluído.
 
+### Linguagem Utilizada
+
+Javasript
+
+
 ### Planejamento
 
  1º Instalar pacotes:

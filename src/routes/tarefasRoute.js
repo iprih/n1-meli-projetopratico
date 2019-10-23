@@ -4,8 +4,9 @@ const controller = require("../controllers/tarefasController")
 
 router.get("/", controller.get)
 
-router.get("/concluido",controller.getConcluido)
-//colocar rota do id
+router.get("/tarefaconcluida",controller.getTarefaConcluida)
+
+router.get("/:funcionario/busca",controller.getTarefaFuncionario)
 router.get("/:id",controller.getById)
 
 
