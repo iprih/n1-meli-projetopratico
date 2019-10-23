@@ -20,7 +20,16 @@ exports.getById = (req,res) => {
 exports.getConcluido = (req, res) => {
     
     const tarefaConcluida = tarefas.filter(item => item.concluido == "true")
-    const tarefaConcluidaa = tarefaConcluida.map(item => item.funcionario)
+    const tarefaConcluidaa = tarefaConcluida.map(item => item.descricao)
     
     res.status(200).send(tarefaConcluidaa)
+}
+
+exports.getTarefaFuncionario = (req, res) => {
+    
+    const nome = tarefas.filter(item => item.funcionario == funcionario)
+    console.log(nome)
+    const coisa = nome.map(item => item.descricao)
+    
+    res.status(200).send(coisa)
 }
