@@ -27,3 +27,21 @@ exports.getTarefaFuncionario = (req, res) => {
          
     res.status(200).send(nome)
 }
+
+
+// exports.getListaTarefas = (req, res) => {
+//     //const tarefas = tarefas.filter(item => item.concluido == "true")
+//     const tarefa = tarefas.map(item => item.dataInclusao)
+//     const tarefaa = (ordenandoTarefas(dataInclusao)) 
+//     console.log(tarefa)
+
+
+
+//     res.status(200).send(tarefaa)
+// }
+
+// function ordenandoTarefas(a,b) {
+//         const 
+    
+//       return a.dataInclusao < b.dataInclusao
+// }

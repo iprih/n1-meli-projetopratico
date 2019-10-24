@@ -5,7 +5,7 @@ const controller = require("../controllers/tarefasController")
 router.get("/", controller.get)
 
 router.get("/tarefaconcluida",controller.getTarefaConcluida)
-
+// router.get("/listatarefas",controller.getListaTarefas)
 router.get("/:funcionario/busca",controller.getTarefaFuncionario)
 router.get("/:id",controller.getById)
 
