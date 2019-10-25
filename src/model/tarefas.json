@@ -5,7 +5,7 @@
     "concluido": "false",
     "descricao": "Tarefa 1: Reunião e entrega de resultado",
     "funcionario": "Priscila",
-    "dataConlusao": ""
+    "dataConclusao": ""
 
     },
 
@@ -15,7 +15,7 @@
     "concluido": "true",
     "descricao": "Tarefa 1: Revisão de Codigo e Atualização de equipe",
     "funcionario": "Helena",
-    "dataConlusao": "23/10/2019"
+    "dataConclusao": "23/10/2019"
     },
 
     {
@@ -24,7 +24,7 @@
         "concluido": "true",
         "descricao": "Tarefa 2: Reunião e entrega de resultado",
         "funcionario": "Pimpa",
-        "dataConlusao": "29/10/2019"
+        "dataConclusao": "29/10/2019"
     },
 
     {
@@ -33,7 +33,7 @@
         "concluido": "true",
         "descricao": "Tarefa 4: Atualização de comite",
         "funcionario": "Pipoca",
-        "dataConlusao": "03/10/2019"
+        "dataConclusao": "03/10/2019"
     },
 
     {
@@ -42,6 +42,6 @@
         "concluido": "true",
         "descricao": "Tarefa 9: Agendamento de Tarefas Gerais",
         "funcionario": "Iris",
-        "dataConlusao": "20/10/2019"
+        "dataConclusao": "20/10/2019"
     }
 ]
